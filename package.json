@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "chai": "^4.3.7",
+    "config": "^1.20.1",
+    "express": "^4.13.4",
+    "mocha": "^10.2.0",
+    "mongoose": "^4.4.15",
+    "morgan": "^1.7.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "ComparingLetterCases",
+  "main": "ComparingLetterCases_v1.0.0.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node ComparingLetterCases_v1.0.0.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Evgeniy Prokhorov",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  }
+}
