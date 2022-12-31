@@ -4,7 +4,6 @@ function arrayRandElement(array){
       var rand=Math.floor(Math.random()*array.length);
       return array[rand];
 }
-
 var array=['A','a','B','b','C','c','D','d','E','e','F','f','G','g','H','h','I','i','K','k','L','l','M','m','N','n','O','o','P','p','Q','q','R','r','S','s','T','t','V','v',
 'W','w','X','x','Y','y','Z','z','1','2','3','4','5','6','7','8','9','0','~','!','@','#','$','%','^','&','*','(',')','-','_','=','+','№',';',':','?',' '];
 var c=arrayRandElement(array);
@@ -27,19 +26,19 @@ describe("sameCase function",()=>{
     let result=SameCase((arrayRandElement(array)),(arrayRandElement(array)));
     assert.strictEqual(result,1);  
   });
-  it('sameCase function, test4',()=>{
+  it('sameCase function, test5',()=>{
     console.log('a = '+ arrayRandElement(array));
     console.log('b = '+ arrayRandElement(array));
     let result=SameCase((arrayRandElement(array)),(arrayRandElement(array)));
     assert.strictEqual(result,0);  
   });
-  it('sameCase function, test4',()=>{
+  it('sameCase function, test6',()=>{
     console.log('a = '+ arrayRandElement(array));
     console.log('b = '+ arrayRandElement(array));
     let result=SameCase((arrayRandElement(array)),(arrayRandElement(array)));
     assert.strictEqual(result,1);  
   });
-  it('sameCase function, test4',()=>{
+  it('sameCase function, test7',()=>{
     console.log('a = '+ arrayRandElement(array));
     console.log('b = '+ arrayRandElement(array));
     let result=SameCase((arrayRandElement(array)),(arrayRandElement(array)));
